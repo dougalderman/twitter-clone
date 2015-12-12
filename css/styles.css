@@ -166,9 +166,17 @@ body {
 		padding-left: 42px;
 	}
 
+	.content {
+		position: relative;
+	}
+
 	.tweet-actions {
 		text-align: right;
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
+
 		.tweet-actions ul {
 			list-style-type: none;
 		}
@@ -248,6 +256,15 @@ body {
 			padding-top: 10px;
 		}
 
+		.timeago {
+			clear: both;
+			display: block;
+			font-size: 12px;
+			color: #999;
+			border-top: 1px solid #e8e8e8;
+			padding-top: 10px;
+		}
+
 		.reply {
 			position: relative;
 			clear: both;
@@ -259,4 +276,7 @@ body {
 				left: 0;
 			}
 
-
+			.tooltip-inner {
+				background-color: lightgrey;
+				color: darkblue;
+			}
